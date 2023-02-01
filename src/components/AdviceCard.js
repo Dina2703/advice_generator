@@ -4,11 +4,11 @@ import diceIcon from "../images/icon-dice.svg";
 
 function AdviceCard() {
   return (
-    <div className="container w-96 h-[16rem] text-center  rounded-lg bg-dark-grayish-blue p-5 flex flex-col justify-around relative">
+    <div className=" md:w-96 md:h-[16rem] w-64 h-56 text-center  rounded-lg bg-dark-grayish-blue p-5 flex flex-col justify-around relative">
       <h3 className="text-primary-neon  text-[13px] tracking-[3px] uppercase ">
         Advice #117
       </h3>
-      <p className="text-[#e2e8f0] font-bold">
+      <p className="text-[#e2e8f0] font-bold md:text-base text-sm pb-4">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non rem sint
         distinctio ut voluptas, magnam reiciendis eius tempore repudiandae esse.
       </p>
