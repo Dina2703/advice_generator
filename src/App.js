@@ -1,7 +1,9 @@
+import AdviceCard from "./components/AdviceCard";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-lg text-cyan-200 ">hello</h1>
+    <div className="bg-dark-blue w-screen h-screen flex items-center justify-center">
+      <AdviceCard />
     </div>
   );
 }
